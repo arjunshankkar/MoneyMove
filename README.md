@@ -1,0 +1,2 @@
+# MoneyMove
+MoneyMove is the implementation of a blockchain for money transfer, where consensus is achieved using vanilla Paxos. The system is built to sustain despite up to 50% of nodes crash failing. SHA256 is used to ensure block links are secure and not easily attacked maliciously. The system also tolerates network partitioning and supports data persistence by writing relevant data structures on disk.
